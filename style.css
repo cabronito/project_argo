@@ -64,6 +64,11 @@ h1 {
   text-align: center;
 }
 
+.historySection p {
+  text-align: justify;
+  padding: 15px;
+}
+
 .heroesSection {
   display: flex;
   flex-flow: row wrap;
@@ -89,4 +94,21 @@ section h2 {
   max-width: 250px;
   height: 350px;
   margin-bottom: 20px;
+}
+
+.inventorySection table {
+  width: 100vw;
+  margin-top: 20px;
+}
+
+.inventorySection td,
+tr,
+th,
+tbody {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.inventorySection th {
+  background-color: grey;
 }
