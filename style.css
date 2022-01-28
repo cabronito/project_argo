@@ -5,38 +5,56 @@
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: #fdf9e8;
 }
 
 header {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end;
-  align-items: center;
   height: 17vh;
+  border-bottom: 1px solid #e9e5d3;
 }
 
 .logo {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 2vh;
+  left: 2vw;
+  height: 13vh;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
 }
 
 nav a {
   text-decoration: none;
-  margin: 10px;
+  padding: 6.6vh 1vw;
+  font-size: 1.2em;
+  color: black;
 }
 
 nav a:hover {
   text-decoration: underline;
+  background-color: #e9e5d3;
+}
+
+nav a:visited {
+  color: #7e7c73;
 }
 
 .welcomeSection {
   width: 100vw;
   height: 50vh;
-  background-image: url("img/welcome-bkgd.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("img/welcome-bkgd.jpg");
+  background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+  margin: 0 0 30px 0;
 }
 
 h1 {
@@ -47,4 +65,28 @@ h1 {
 }
 
 .heroesSection {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+section h2 {
+  width: 100vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flex_container_heroe {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.img_inner_heroesSection {
+  max-width: 250px;
+  height: 350px;
+  margin-bottom: 20px;
 }
