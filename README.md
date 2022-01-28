@@ -1,2 +1,2 @@
 # project_argo
-Created with CodeSandbox
+Just a simple website create with codeSandBox for the WildCodeSchool
