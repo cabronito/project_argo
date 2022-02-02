@@ -20,28 +20,29 @@
     <main>
       <section class="formSection">
         <h2>Contact</h2>
-        <form>
-          <label for="name">Name</label><br />
+        <form class="contactForm">
+          <label class="labelInnerForm" for="name">Name</label><br />
           <input
+            class="inputInnerForm"
             type="text"
             id="name"
             name="name"
             placeholder="Enter your name here"
           /><br />
-          <label for="email">E-Mail</label><br />
+          <label class="labelInnerForm" for="email">E-Mail</label><br />
           <input
+            class="inputInnerForm"
             type="email"
             id="email"
             name="mail"
             placeholder="contact@argo.com"
           /><br />
-          <label for="name">Name</label><br />
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Enter your name here"
-          /><br />
+          <label class="labelInnerForm" for="comment">Comments</label><br />
+          <textarea id="comment" name="comment">
+Feel free to leave all yours comments here</textarea
+          >
+          <br />
+          <input class="submitInnerForm" type="submit" value="Submit" />
         </form>
       </section>
     </main>

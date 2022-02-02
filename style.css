@@ -79,6 +79,7 @@ section h2 {
   width: 100vw;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 .flex_container_heroe {
@@ -111,4 +112,34 @@ tbody {
 
 .inventorySection th {
   background-color: grey;
+}
+
+.contactForm {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.labelInnerForm {
+  margin: 10px 15px 3px 15px;
+}
+
+.inputInnerForm {
+  height: 7vh;
+  width: 95%;
+  margin: 5px 15px 10px 15px;
+}
+
+#comment {
+  height: 15vh;
+  width: 95%;
+  margin: 5px 15px;
+}
+
+.submitInnerForm {
+  width: 80px;
+  margin-left: 85vw;
+}
+
+.submitInnerForm:hover {
+  cursor: pointer;
 }
